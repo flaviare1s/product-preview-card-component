@@ -99,7 +99,7 @@ button {
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 12px;
     align-items: center;
 }
 
@@ -137,11 +137,15 @@ button:hover {
 
     .img {
         border-radius: 10px 10px 0px 0px;
-        height: 200px;
+        height: 230px;
         margin-bottom: -10px;
     }
 
     .right {
         border-radius: 0px 0px 10px 10px;
+    }
+
+    button:hover {
+        transition: 0.2s;
     }
 }

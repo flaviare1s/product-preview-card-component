@@ -30,12 +30,16 @@ body {
     align-items: center;
     margin: auto;
     border-radius: 10px;
-    border: 1px solid;
 }
 
 .half-card {
     width: 50%;
     height: 400px;
+}
+
+.right {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0px 10px 10px 0px;
 }
 
 .img {
@@ -73,5 +77,9 @@ body {
 
     .img {
         border-radius: 10px 10px 0px 0px;
+    }
+
+    .right {
+        border-radius: 0px 0px 10px 10px;
     }
 }

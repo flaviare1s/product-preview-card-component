@@ -58,6 +58,7 @@ body {
 h1 {
     font-family: 'Fraunces', serif;
     padding: 0px 20px;
+    color: hsl(212, 21%, 14%);
 }
 
 .text-2 {
@@ -96,6 +97,15 @@ button {
     font-weight: 700;
     border: none;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+button:hover {
+    background-color: hsl(157, 36%, 23%);
+    transition: 1s;
 }
 
 .attribution {

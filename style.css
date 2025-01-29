@@ -136,7 +136,7 @@ button:hover {
 
     .card {
         flex-direction: column;
-        max-width: 300px;
+        max-width: 350px;
     }
 
     .half-card {

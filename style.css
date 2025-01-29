@@ -168,9 +168,6 @@ button:hover {
     }
 
     .attribution {
-        position: absolute;
-        bottom: 0px;
-        left: 50%;
-        transform: translateX(-50%);
+        display: none;
     }
 }

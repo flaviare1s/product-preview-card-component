@@ -65,6 +65,7 @@ h1 {
     color: hsl(212, 21%, 14%);
     padding: 20px 0px;
     font-size: 32px;
+    line-height: 32px;
 }
 
 .text-2 {
@@ -72,6 +73,7 @@ h1 {
     font-size: 13px;
     color: hsl(228, 12%, 48%);
     padding-bottom: 30px;
+    line-height: 23px;
 }
 
 .price-container {
@@ -117,7 +119,7 @@ button:hover {
 .attribution {
     font-size: 11px;
     text-align: center;
-    margin-top: 2px;
+    margin-top: 8px;
 }
 
 .attribution a {

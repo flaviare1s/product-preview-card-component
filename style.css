@@ -122,7 +122,14 @@ button:hover {
     font-weight: 700;
 }
 
-@media screen and (max-width:500px) {
+@media (min-width:550px) and (max-width:800px) {
+    .container {
+        width: 90vw;
+    }
+    
+}
+
+@media screen and (max-width:550px) {
     .container {
         width: 100vw;
     }
@@ -148,5 +155,12 @@ button:hover {
 
     button:hover {
         transition: 0.2s;
+    }
+
+    .attribution {
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
